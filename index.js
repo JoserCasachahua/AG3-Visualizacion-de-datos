@@ -11,7 +11,7 @@ var visualization = d3plus.viz()
     .id("name")    
     .x("year")    
     .y("value")    
-    .draw()
+    .draw() 
 
 //Gráfico de Multicolumnas. Mi 2º gráfico
  d3.json("https://raw.githubusercontent.com/JoserCasachahua/AG3-Visualizacion-de-datos/master/columnas.json", function(data) {
@@ -24,7 +24,7 @@ var visualization = d3plus.viz()
   .y('value')
   .axes({ ticks: 'false' })
   .draw();
-  });
+  }); 
 
 //Gráfico de Cajas y Bigotes. Mi 3º gráfico 
 d3.json("https://raw.githubusercontent.com/JoserCasachahua/AG3-Visualizacion-de-datos/master/columnas.json", function(data) {
