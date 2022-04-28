@@ -13,7 +13,7 @@ var visualization = d3plus.viz()
     .y("value")    
     .draw()
 
-//Gráfico de Multicolumnas. Mi 2º gráfico 
+//Gráfico de Multicolumnas. Mi 2º gráfico
  d3.json("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Actividades-Guiadas/master/columnas.json", function(data) {
   var visualization = d3plus.viz()
   .container("#viz2")
