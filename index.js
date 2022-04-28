@@ -14,7 +14,7 @@ var visualization = d3plus.viz()
     .draw()
 
 //Gráfico de Multicolumnas. Mi 2º gráfico
- d3.json("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Actividades-Guiadas/master/columnas.json", function(data) {
+ d3.json("https://raw.githubusercontent.com/JoserCasachahua/AG3-Visualizacion-de-datos/master/columnas.json", function(data) {
   var visualization = d3plus.viz()
   .container("#viz2")
   .data(data)
@@ -27,7 +27,7 @@ var visualization = d3plus.viz()
   });
 
 //Gráfico de Cajas y Bigotes. Mi 3º gráfico 
-d3.json("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Actividades-Guiadas/master/columnas.json", function(data) {
+d3.json("https://raw.githubusercontent.com/JoserCasachahua/AG3-Visualizacion-de-datos/master/columnas.json", function(data) {
   var visualization = d3plus.viz()
   .container("#viz3")
   .data(data)
